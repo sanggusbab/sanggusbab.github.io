@@ -1,5 +1,78 @@
-<html>
-	<body>
-		Hello! This is the first page!
-	</body>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Jacquard+12&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    
+    <style>
+        .login{
+            width: 800px;
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+            color: skyblue;
+            background-image: url("images/loginpage.jpg");
+            border-width: thin;
+            border-style: groove;
+            border-color: rgb(143, 224, 224);
+
+            /* font-family: "Jacquard 12", "Noto Serif KR", sans-serif; */
+
+        }
+        .title{
+            font-size: 30px;
+            /* font-family: "Jacquard 12", sans-serif; */
+            color: rgb(247, 247, 247);
+            font-weight: 100;
+        }
+
+        .homepage{
+            position:absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            align-content: center;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(114, 204, 245, 0.5);
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+    </style>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+    <div class="login">
+        <h2 class="title">Login</h2>
+
+        <form action="aftersubmit.html" method="POST">
+            <input type="text" placeholder="하고 싶은 말">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <a href="aftersubmit.html"><input type="button" value="submit"></a>
+            <h6>if you have any problem,
+                <a href="https://open.kakao.com/o/sWkITksg"><img src="C:\Users\JuyeonSHIM\Downloads\01 카카오톡 로고(투명배경)-2.png" width='20' height="20" alt="katalk"></a>
+            </h6>
+        </form>
+    </div>
+    <div class="homepage">
+        2024.05.18 Sat
+        <br>
+        since 2023.05.18
+        <p>
+            <a href="https://blog.naver.com/sjuyeon0204">if you want to see our memories, <img src="images/social_icon2_1.png" alt="vlog"></a>
+        </p>
+
+    </div>
+    </header>
+    </div>
+</body>
 </html>
